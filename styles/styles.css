@@ -1,0 +1,52 @@
+/*css styling for body*/
+body
+{
+    background-color:darkslategrey;
+    margin-left:5%;
+    margin-right: 5%;
+}
+/*css styling for heading (grouped)*/
+h1, h2, h3
+{
+    color:black;
+    font-family:arial;
+    text-align: center;
+}
+
+nav ul li {
+    list-style-type: none;
+    background-color: #B2B2B2;
+    display: inline;
+    padding: 15px;
+    margin: 10px;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    
+}
+nav {
+    
+    padding: 15px;
+    
+  
+}
+nav ul {
+    text-align: center;
+    font-size: 2em;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+nav ul li:hover {
+    background-color: #8E8E8E;
+}
+footer {
+    text-align: center;
+    font-size: 1.2em;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+}
+
